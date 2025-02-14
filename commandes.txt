@@ -1,0 +1,19 @@
+    1  git init
+    2  git add *
+    3  git commit -m "first commit"
+    4  history
+    5  git remote add origin https://github.com/Alben11/exempleRepository.git
+    6  git push --set-upstream add origin master
+    7  git push --set-upstream origin master
+    8  git status
+    9  git add *
+   10  git commit -m "new readme file"
+   11  git push
+   12  git status
+   13  git add -a
+   14  git add readme.md
+   15  git commit -m "new readme file x2"
+   16  git commit -a -m "new readme file x2"
+   17  git push
+   18  history
+   19  history > commandes.txt
