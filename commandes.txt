@@ -1,19 +1,29 @@
-    1  git init
-    2  git add *
-    3  git commit -m "first commit"
-    4  history
-    5  git remote add origin https://github.com/Alben11/exempleRepository.git
-    6  git push --set-upstream add origin master
-    7  git push --set-upstream origin master
-    8  git status
-    9  git add *
-   10  git commit -m "new readme file"
-   11  git push
-   12  git status
-   13  git add -a
-   14  git add readme.md
-   15  git commit -m "new readme file x2"
-   16  git commit -a -m "new readme file x2"
-   17  git push
-   18  history
-   19  history > commandes.txt
+    1  git init 
+    // initialize le dossier 
+
+    2  git add * 
+    // ajoute tout dans le github
+
+    3  git commit -m "first commit" 
+    // enregistre les changements dans un commit. tu **dois** avoir un message qui explique les changements
+    
+    4  git remote add origin https://github.com/Alben11/exempleRepository.git 
+    // tu copie l'url du code github après la commande git remote add origin 
+    
+    5  git push --set-upstream origin master 
+    // définie la branche dans laquelle tu vas téléverser tes fichiers et publie les changements sur github. 
+
+    // de 1 à 5, on a upload les fichiers sur github. prochaines étapes: modifier des fichiers
+    
+    6  git status 
+    // voir le status de ton repository 
+
+    // entre l'étape 6 et 7, nous avons supprimer le fichier readme par défaut pour en créer un nouveau. nous allons maintenant enregister les modifications et les publiers sur github.
+
+   7  git commit -a -m "new readme file"
+    // enregistre les changements
+
+   8  git push
+    // publie les changements
+
+- rédigé lauriana et alben
